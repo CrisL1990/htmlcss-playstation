@@ -1,0 +1,16 @@
+.ms_jumbo{
+    height: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background-image: url("img/jumbo-bg.png");
+    background-position: center;
+    background-size: cover;  
+}
+
+.ms_border_radius{
+    border-radius: 50px;
+}
+
+.ms_returnal_logo{
+    width: 100%;
+}
