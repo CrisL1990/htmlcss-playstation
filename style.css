@@ -7,10 +7,31 @@
     background-size: cover;  
 }
 
+.ms_takes_2{
+    height: 100%;
+    min-height: 500px;
+    max-height: 500px;
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
+    background-position: center;
+    background-size: cover;  
+}
+
 .ms_border_radius{
     border-radius: 50px;
 }
 
-.ms_returnal_logo{
+.ms_logo{
     width: 100%;
+}
+
+.ms_ps5{
+    margin-top: 80px;
+}
+
+.ms_gear_content{
+    width: 20%;
+}
+
+.ms_gear_w{
+    width: 75%;
 }
