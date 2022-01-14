@@ -1,4 +1,13 @@
+.ms_logo_sony{
+    width: 5rem;
+}
+
+.ms_drp_dwn{
+    width: 10px;
+}
+
 .ms_jumbo{
+    margin-top: 30px;
     height: 100%;
     min-height: 500px;
     max-height: 500px;
@@ -7,9 +16,21 @@
     background-size: cover;  
 }
 
+.ms_border_img{
+    border-radius: 20px;
+}
+
+.ms_padding_top{
+    padding-top: 250px;
+}
+
+.ms_tm{
+    font-size: 10px;
+}
+
 .ms_takes_2{
-    height: 100%;
-    min-height: 500px;
+    height: 500px;
+    min-height: 550px;
     max-height: 500px;
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
@@ -39,3 +60,42 @@
 .ms_bkg_blk{
     background-color:rgb(31, 31, 31);
 }
+
+.ms_bkg_gray{
+    background-color: rgb(190, 188, 197);
+}
+
+.ms_play_plus{
+    height: 300px;
+}
+
+.prova{
+    height: 100%;
+}
+
+.ms_ps_plus, .ms_ps_now{
+    min-height: 400px;
+    max-height: 550px;
+}
+
+.ms_games{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    min-height: 500px;
+}
+.ms_bkg_blu{
+    background-color: rgb(22, 28, 59);
+}
+
+.ms_bkg_ftr{
+    background-color: rgb(0, 67, 156);
+}
+
+.ms_globe{
+    width: 20px;
+    height: 20px;
+}
+
