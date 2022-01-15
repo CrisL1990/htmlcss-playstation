@@ -45,8 +45,23 @@
     background-size: cover;  
 }
 
+.ms_transition{
+    transition: all 1s;
+    background-color: transparent;
+}
+
+.ms_transition:hover{
+    margin-top: 0;
+}
+
 .ms_border_img{
     border-radius: 20px;
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.ms_transition:hover .ms_border_img{
+    border-color: rgb(0, 112, 209);
 }
 
 .ms_padding_top{
