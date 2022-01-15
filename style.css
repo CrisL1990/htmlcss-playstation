@@ -1,3 +1,22 @@
+.ms_button{
+    outline: 1px solid white;
+    outline-offset: 2px;
+}
+
+.ms_button:hover{
+    outline: 2px solid black;
+}
+
+.ms_button_red{
+    outline: 1px solid;
+    outline-color: #dc3545;
+    outline-offset: -5px;
+}
+
+.ms_button_red:hover{
+    outline: 2px solid black;
+}
+
 .ms_logo_sony{
     width: 5rem;
 }
