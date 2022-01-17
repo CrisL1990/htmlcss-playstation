@@ -32,9 +32,6 @@
     border-radius: 50px;
 }
 
-.ms_bkg_gray{
-    background-color: rgb(217, 218, 220);
-}
 /*Finestile bottoni*/
 
 /*Inizio Nav*/
@@ -81,7 +78,7 @@
     margin-top: 120px;
     height: 100%;
     min-height: 500px;
-    max-height: 500px;
+    max-height: 800px;
     background-image: url("img/jumbo-bg.png");
     background-position: center;
     background-size: cover;  
@@ -94,6 +91,10 @@
     background-color: transparent;
 }
 
+.ms_border_img.active{
+    border-color: rgb(0, 112, 209);
+}
+
 .ms_transition:hover{
     margin-top: 0;
 }
@@ -104,7 +105,7 @@
     background-color: transparent;
 }
 
-.ms_thumbnail_link:active .ms_border_img{
+.ms_thumbnail_link:hover .ms_border_img{
     border-color: rgb(0, 112, 209);
 }
 
@@ -122,7 +123,7 @@
 .ms_takes_2{
     height: 500px;
     min-height: 550px;
-    max-height: 500px;
+    max-height: 800px;
     background-image: url("img/it-takes-two-hero-banner-desktop.jpg");
     background-position: center;
     background-size: cover;  
@@ -157,6 +158,14 @@
 .ms_gear_opacity:hover{
     opacity: 100%;
 }
+
+.ms_border_gear{
+    border-bottom: solid 3px transparent;
+}
+
+.ms_border_gear.active{
+    border-bottom: solid 3px rgb(0, 112, 209); 
+}
 /*Fine Gear*/
 
 /*Inizio PS Plus*/
@@ -186,6 +195,14 @@
 }
 /*Inizio Playstation now*/
 
+/*Inizio Esplora*/
+.fa-registered{
+    font-size: 15px;
+    vertical-align: text-top;
+    margin-top: 10px;
+}
+/*Fine Esplora*/
+
 /*Inizio Footer*/
 footer{
     min-height: 500px;
@@ -198,5 +215,9 @@ footer{
 .ms_globe{
     width: 20px;
     height: 20px;
+}
+
+.ms_ftr_txt{
+    font-size: 13px;
 }
 /*Fine Footer*/
