@@ -104,7 +104,7 @@
     background-color: transparent;
 }
 
-.ms_transition:hover .ms_border_img{
+.ms_thumbnail_link:active .ms_border_img{
     border-color: rgb(0, 112, 209);
 }
 
@@ -148,6 +148,14 @@
 
 .ms_gear_w{
     width: 75%;
+}
+
+.ms_gear_opacity{
+    opacity: 50%;
+}
+
+.ms_gear_opacity:hover{
+    opacity: 100%;
 }
 /*Fine Gear*/
 
